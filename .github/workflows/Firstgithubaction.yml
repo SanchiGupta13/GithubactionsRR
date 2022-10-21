@@ -2,8 +2,8 @@ name: Run Shell Command
 on: [push]
 
 jobs:
-run-shell-command:
-runs-on: ubuntu-latest
-steps:
-- name: Echo a string
-run: echo "Hello World"
+ run-shell-command:
+  runs-on: ubuntu-latest
+  steps:
+   - name: Echo a string
+     run: echo "Hello World"
